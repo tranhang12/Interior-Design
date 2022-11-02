@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+/* GLOBAL */
+html, body {
+    font-family: 'Times New Roman', Times, serif;
+}
+.clear {
+    clear: both;
+}
+/* HEADER */
+.header img {
+    width: 250px;
+}
+
+.header ul {
+    list-style: none;
+    background-color: black;
+    padding: 15px 0;
+    margin: 5px 0 10px;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.header li {
+    display: inline;
+    margin: 0 10px;
+}
+/* CAROUSEL */
+.carousel {
+    background-image: url("../img/slider_1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+}
+/* INTRO */
+.intro__text {
+    font-size: 20px;
+    margin: 25px 0 40px;
+}
+.intro__text span {
+    color: red;
+    font-weight: bold;
+}
+.intro__left, .intro__right {
+    width: 50%;
+    float: left;
+    padding: 0 10px 20px;
+}
+.intro__smallItem {
+    width: 50%;
+    float: left;
+}
+.intro__item img {
+    width: 100%;
+    display: block;
+}
+.intro__item {
+    padding: 0 15px 25px;
+}
+/* PRODUCTS */
+.products {
+    margin-bottom: 70px;
+}
+.products h2 {
+    font-size: 30px;
+    text-align: center;
+}
+.products__item {
+    width: 25%;
+    float: left;
+    padding: 0 10px;
+}
+.products__item img {
+    width: 100%;
+}
+.products__item h3 {
+    font-size: 25px;
+    margin: 10px;
+}
+.products__item p {
+    font-size: 17px;
+}
+.products__item button {
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
