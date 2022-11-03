@@ -94,3 +94,72 @@ html, body {
     padding: 5px 10px;
     margin-top: 10px;
 }
+
+/* BANNER */
+.banner {
+    background-image: url("../img/nature.jpg");
+    background-size: cover;
+    height: 320px;
+    position: relative;
+}
+
+.banner__circle {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: rgba(173, 24, 24, 0.7);
+    color: white;
+    position: absolute;
+    top: 15px;
+    left: 290px;
+    text-align: center;
+}
+.banner__circle p {
+    margin: 5px 0;
+    font-size: 20px;
+}
+.banner__circle p:first-child {
+    font-size: 30px;
+    margin: 35px 0 10px;
+}
+.banner__circle p:nth-child(2) {
+    font-size: 80px;
+    margin: 0;
+}
+
+/* SERVICES */
+.services {
+    margin: 30px 0 10px;
+}
+.services__content {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+.services__item {
+    float: left;
+    width: 33.33%;
+    padding: 5px 10px;
+}
+.services__item i {
+    font-size: 30px;
+}
+.services__item h2 {
+    margin: 10px 0 0;
+}
+.services__item p {
+    margin: 5px 0;
+}
+/* FOOTER */
+.footer {
+    background-color: black;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+.footer h2, .footer p {
+    margin: 0;
+}
+.footer h2 {
+    font-size: 25px;
+}
